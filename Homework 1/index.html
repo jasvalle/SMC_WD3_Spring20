@@ -10,10 +10,18 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-    <title>Bootstrap Grid & Navigation!</title>
+    <title>Homework 1</title>
     <style>
         .navbar-brand img {
             max-width: 75px;
+        }
+
+        img {
+            max-width: 100%;
+        }
+
+        p {
+            text-align: center;
         }
     </style>
 
@@ -22,8 +30,8 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
         <a class="navbar-brand" href="#">
-            <img src="https://i.pinimg.com/originals/33/b8/69/33b869f90619e81763dbf1fccc896d8d.jpg"
-                alt="amazing brand logo">
+            <img src="icon.png"
+                alt="amazing pizza logo">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,37 +47,34 @@
                     <a class="nav-link" href="#">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Product</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact Us</a>
+                    <a class="nav-link" href="#">Pizza</a>
                 </li>
 
             </ul>
 
         </div>
     </nav>
-
+   
     <!--simple grid structure-->
     <div class="container">
         <div class="row">
-            <div class="col-12 col-md-4 bg-info">
-                Column 1 of 4
+            <div class="col-12 col-md-4 bg-info p-2">
+                <img src="1.jpg" alt="pizza and appetizers">
             </div>
-            <div class="col-12 col-md-4  bg-warning">
-                Column 2 of 4
+            <div class="col-12 col-md-4  bg-warning p-2">
+                <p>Pizza is a savory dish of Italian origin, consisting of a usually round, flattened base of leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients (anchovies, olives, meat, etc.) baked at a high temperature, traditionally in a wood-fired oven.[1] A small pizza is sometimes called a pizzetta. </p>
             </div>
-            <div class="col-12 col-md-4  bg-secondary">
-                Column 3 of 4
+            <div class="col-12 col-md-4  bg-secondary p-2">
+                <img src="2.jpg" alt="lots of pizza">
             </div>
-            <div class="col-12 col-md-4  bg-warning">
-                Column 4 of 4
+            <div class="col-12 col-md-4  bg-secondary p-2">
+                <p>In Italy, pizza served in formal settings, such as at a restaurant, is presented unsliced and eaten with the use of a knife and fork. In casual settings it is cut into wedges to be eaten while held in the hand. </p>
             </div>
-            <div class="col-12 col-md-4  bg-secondary">
-                Column 3 of 4
+            <div class="col-12 col-md-4  bg-info p-2">
+                <img src="3.jpg" alt="pizza">
             </div>
-            <div class="col-12 col-md-4 bg-info">
-                Column 4 of 4
+            <div class="col-12 col-md-4 bg-warning p-2">
+                <p>The term pizza was first recorded in the 10th century in a Latin manuscript from the Southern Italian town of Gaeta in Lazio, on the border with Campania. Modern pizza was invented in Naples, and the dish and its variants have since become popular in many countries.[5] It has become one of the most popular foods in the world and a common fast food item in Europe and North America, available at pizzerias (restaurants specializing in pizza), restaurants offering Mediterranean cuisine, and via pizza delivery. Many companies sell ready-baked frozen pizzas to be reheated in an ordinary home oven. </p>
             </div>
         </div>
     </div>
