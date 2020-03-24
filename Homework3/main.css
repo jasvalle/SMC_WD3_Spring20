@@ -20,11 +20,12 @@ P::first-letter {
     margin-left: 30px !important;
 }
 
-p.lead {
-    margin-left: -30px !important;
-    color: #e98349;
-    font-weight: 600;
-    font-style: italic;
+h2 {
+    font-family: 'Open Sans', sans-serif !important;
+    color: #c3c781 !important;
+    font-weight: 600 !important;
+    font-style: italic !important;
+    font-size: 1.8rem;
 }
 
 .navbar-brand {
