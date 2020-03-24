@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Merienda:400,700|Open+Sans:400,400i,600&display=swap');
+
+h1 {
+    font-family: 'Merienda', cursive !important;
+    color: #e98349;
+}
+
+h4 {
+    font-family: 'Open Sans', sans-serif !important;
+    font-style: italic !important;
+    font-size: 1.4rem !important;
+    color: #5b7b50;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+P::first-letter {
+    margin-left: 30px !important;
+}
+
+p.lead {
+    margin-left: -30px !important;
+    color: #e98349;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.navbar-brand {
+    font-family: 'Merienda', cursive !important;
+    color: #e98349 !important;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.display-4 {
+    font-weight: 700 !important;
+    color: white !important;
+}
+
+hr {
+    border-top: 2px solid #682a1a86 !important;
+}
+
+.jumbotron {
+    background-size: cover !important;
+}
+
+.carroticon {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.bg-light {
+    background-color: #d9dd90  !important;
+}
+
+.nav-link:focus,
+.nav-link:hover {
+    color: #5b7b50 !important;
+}
+
+.nav-link {
+    color: #502419 !important;
+}

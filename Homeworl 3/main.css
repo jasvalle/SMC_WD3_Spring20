@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&family=Open+Sans:ital@0;1&display=swap');
+
+h1 {
+    font-family: 'Merienda', cursive !important;
+}
+
+h4 {
+    font-family: 'Open Sans', sans-serif !important;
+    font-style: italic !important;
+    font-size: 1.4rem !important;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+P::first-letter {
+    margin-left: 30px !important;
+}
+
+p.lead {
+    margin-left: -30px !important;
+
+}
+
+.navbar-brand {
+    font-family: 'Merienda', cursive !important;
+}
+
+.display-4 {
+    font-weight: 700 !important;
+}
+
+hr {
+    border-top: 2px solid rgba(0,0,0,.1) !important;
+}
+
+.jumbotron {
+    background-size: cover !important;
+}
