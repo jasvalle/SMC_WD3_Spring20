@@ -1,19 +1,13 @@
-@import url('https://fonts.googleapis.com/css?family=Merienda:400,700|Open+Sans:400,400i,600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500i|Satisfy&display=swap');
 
 h1 {
-    font-family: 'Merienda', cursive !important;
-    color: #e98349;
-}
 
-h4 {
-    font-family: 'Open Sans', sans-serif !important;
-    font-style: italic !important;
-    font-size: 1.4rem !important;
-    color: #5b7b50;
+    font-family: 'Satisfy', cursive !important;
+    color: #302f4d;
 }
 
 p {
-    font-family: 'Open Sans', sans-serif !important;
+    font-family: 'Raleway', sans-serif  !important;
 }
 
 P::first-letter {
@@ -21,23 +15,23 @@ P::first-letter {
 }
 
 h2 {
-    font-family: 'Open Sans', sans-serif !important;
-    color: #a57982!important;
-    font-weight: 600 !important;
+    font-family: 'Raleway', sans-serif !important;
+    color: #302f4d !important;
+    font-weight: 500 !important;
     font-style: italic !important;
     font-size: 1.8rem;
 }
 
 .navbar-brand {
-    font-family: 'Merienda', cursive !important;
-    color: #e98349 !important;
+
+    font-family: 'Satisfy', cursive !important;
+    color: #302f4d !important;
     font-size: 1.6rem;
     font-weight: 600;
 }
 
 .display-4 {
-    font-weight: 700 !important;
-    color: white !important;
+    color: #beb9d6 !important;
 }
 
 hr {
@@ -48,31 +42,30 @@ hr {
     background-size: cover !important;
 }
 
-.carroticon {
-    margin-right: 10px;
-    margin-left: 10px;
-}
-
 .bg-light {
-    background-color: #d9dd90  !important;
+    background-color: #beb9d6 !important;
 }
 
 .nav-link:focus,
 .nav-link:hover {
-    color: #5b7b50 !important;
+    color: #9960ce !important;
 }
 
 .nav-link {
-    color: #502419 !important;
+    color: #564a5a !important;
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif !important;
+    font-family: 'Raleway', sans-serif !important;
     color: #302f4d !important;
 }
 
 .btn-primary {
     color: #fff;
-    background-color: #302f4d !important;
-    border-color: #2c2b47 !important;
+    background-color: #beb9d6 !important;
+    border-color: #a09abb !important;
+}
+
+.navbar {
+    background-color: #beb9d6 !important;
 }
