@@ -48,6 +48,7 @@ h5 {
 
 .carousel-caption h1 {
     text-shadow: 1px 1px 2px black !important;
+    color: white !important;
 }
 .nav-link {
     font-family: 'Montserrat', sans-serif !important;
