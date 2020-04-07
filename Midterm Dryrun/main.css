@@ -30,6 +30,7 @@ h5 {
 
 .modal-title {
     font-size: 2rem;
+    color: #9ec685;
 }
 
 .display-4 {
@@ -65,7 +66,7 @@ p {
     line-height: 24px;
 }
 
-p::first-letter {
+.blog p::first-letter {
     margin-left: 25px;
     margin-right: 3px;
     font-weight: 800;
@@ -91,6 +92,69 @@ input {
     font-family: 'Montserrat', sans-serif !important;
 }
 
-.modal-content {
-    background-color: #d9f0fb !important;
+.form-dark .font-small {
+    font-size: 0.8rem;
+}
+
+.form-dark .md-form label {
+    color: #fff !important;
+}
+
+
+.form-dark input[type=email]:focus:not([readonly])+label {
+    color: #fff !important;
+}
+
+
+.form-dark input[type=password]:focus:not([readonly])+label {
+    color: #fff !important;
+}
+
+.form-dark .modal-header {
+    border-bottom: none !important;
+
+}
+
+.btn-success {
+    background-color: #779fa8 !important;
+    border-color: #779fa8 !important;
+}
+
+.font-weight-bold {
+    color: #9dc3c2;
+}
+
+.modal-body h4 {
+    color: white;
+}
+
+.footer {
+    background-color: #9ec685;
+}
+
+.footer h1 {
+    color: white !important;
+    text-align: center !important;
+    margin: 0px;
+}
+
+.footer-content {
+    background-color: white;
+}
+
+.footer ul {
+    list-style: none !important;
+    color: #4e6e58 !important;
+    font-size: 1.2rem !important;
+    font-family: 'Montserrat', sans-serif !important;
+    text-align: center;
+    padding-left: 0px !important;
+}
+
+.footer hr {
+    border-top: 2px solid #4e6e58 !important;
+}
+
+.footer-divider {
+    border-bottom: 2px solid #4e6e58;
 }
