@@ -2,11 +2,33 @@
 
 h1 {
     font-family: 'Shrikhand', cursive !important;
+    color: #9ec685 !important;
+
 }
 
 h2 {
     font-family: 'Montserrat', sans-serif !important;
     font-weight: 500;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 500;
+}
+
+h4{
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: #4e6e58;
+}
+
+h5 {
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: .9rem;
+}
+.display-4 {
+    font-size: 2.5rem;
 }
 
 .featurette-heading
@@ -16,15 +38,39 @@ h2 {
 
 .nav-link {
     font-family: 'Montserrat', sans-serif !important;
+    font-weight: 500;
+    color: #4e6e58 !important;
+}
+
+.active {
+    color: #779fa8 !important;
+
+}
+.nav-link:hover {
+    color: #9dc3c2!important;
 }
 
 .navbar-brand{
     font-family: 'Shrikhand', cursive !important;
+    color: #9ec685 !important;
 }
 p {
     font-family: 'Montserrat', sans-serif !important;
+    line-height: 24px;
+}
+
+p::first-letter {
+    margin-left: 25px;
+    margin-right: 3px;
+    font-weight: 800;
+    color: #9dc3c2 !important;
+    font-size: 1.7rem !important;
 }
 
 .marketing {
     text-align: center;
+}
+
+hr {
+    border-top: 2px solid #779fa8 !important;
 }
