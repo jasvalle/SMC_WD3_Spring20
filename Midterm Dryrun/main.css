@@ -180,3 +180,7 @@ input {
 .card-trans h4 {
     color: white !important;
 }
+
+.card-trans img{
+    width: 100px !important;
+}
