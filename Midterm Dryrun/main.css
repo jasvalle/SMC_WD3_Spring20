@@ -35,12 +35,20 @@ h5 {
 
 .display-4 {
     font-size: 2.5rem;
+    color: white !important;
 }
 
 .featurette-heading {
     font-weight: 500;
 }
 
+.carousel-item img {
+    width: 100% !important;
+}
+
+.carousel-caption h1 {
+    text-shadow: 1px 1px 2px black !important;
+}
 .nav-link {
     font-family: 'Montserrat', sans-serif !important;
     font-weight: 500;
@@ -157,4 +165,18 @@ input {
 
 .footer-divider {
     border-bottom: 2px solid #4e6e58;
+}
+
+.text-muted {
+    color: #4e6e58 !important;
+}
+
+.card-trans {
+    border: none !important;
+    background-color: rgba(255, 255, 255, 0);
+    text-align: center;
+}
+
+.card-trans h4 {
+    color: white !important;
 }
