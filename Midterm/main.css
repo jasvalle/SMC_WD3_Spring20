@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,800|Shrikhand&display=swap');
+
+h1 {
+    font-family: 'Shrikhand', cursive !important;
+    color: #9ec685 !important;
+
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 500;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 500;
+}
+
+h4 {
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: #4e6e58;
+}
+
+h5 {
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: .9rem;
+}
+
+.modal-title {
+    font-size: 2rem;
+    color: #9ec685;
+}
+
+.display-4 {
+    font-size: 2.5rem;
+    color: white !important;
+    text-shadow: 1px 1px 1px black !important;
+}
+
+.featurette-heading {
+    font-weight: 500;
+}
+
+.carousel-item img {
+    width: 100% !important;
+}
+
+.carousel-caption h1 {
+    text-shadow: 1px 1px 2px black !important;
+    color: white !important;
+}
+.nav-link {
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 500;
+    color: #4e6e58 !important;
+}
+
+.active {
+    color: #779fa8 !important;
+
+}
+
+.nav-link:hover {
+    color: #9dc3c2 !important;
+}
+
+.navbar-brand {
+    font-family: 'Shrikhand', cursive !important;
+    color: #9ec685 !important;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif !important;
+    line-height: 24px;
+}
+
+.blog p::first-letter {
+    margin-left: 25px;
+    margin-right: 3px;
+    font-weight: 800;
+    color: #9dc3c2 !important;
+    font-size: 1.7rem !important;
+}
+
+.marketing {
+    text-align: center;
+}
+
+hr {
+    border-top: 2px solid #779fa8 !important;
+}
+
+label {
+    font-family: 'Montserrat', sans-serif !important;
+    color: #779fa8 !important;
+    font-weight: 500;
+}
+
+input {
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.form-dark .font-small {
+    font-size: 0.8rem;
+}
+
+.form-dark .md-form label {
+    color: #fff !important;
+}
+
+
+.form-dark input[type=email]:focus:not([readonly])+label {
+    color: #fff !important;
+}
+
+
+.form-dark input[type=password]:focus:not([readonly])+label {
+    color: #fff !important;
+}
+
+.form-dark .modal-header {
+    border-bottom: none !important;
+
+}
+
+.btn-success {
+    background-color: #779fa8 !important;
+    border-color: #779fa8 !important;
+}
+
+.font-weight-bold {
+    color: #9dc3c2;
+}
+
+.modal-body h4 {
+    color: white;
+}
+
+.footer {
+    background-color: #9ec685;
+}
+
+.footer h1 {
+    color: white !important;
+    text-align: center !important;
+    margin: 0px;
+}
+
+.footer-content {
+    background-color: white;
+}
+
+.footer ul {
+    list-style: none !important;
+    color: #4e6e58 !important;
+    font-size: 1.2rem !important;
+    font-family: 'Montserrat', sans-serif !important;
+    text-align: center;
+    padding-left: 0px !important;
+}
+
+.footer hr {
+    border-top: 2px solid #4e6e58 !important;
+}
+
+.footer-divider {
+    border-bottom: 2px solid #4e6e58;
+}
+
+.text-muted {
+    color: #4e6e58 !important;
+}
+
+.card-trans {
+    border: none !important;
+    background-color: rgba(255, 255, 255, 0);
+    text-align: center;
+}
+
+.card-trans h4 {
+    color: white !important;
+}
+
+.card-trans img{
+    width: 100px !important;
+}
