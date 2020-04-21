@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,800|Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;400;900&display=swap');
 
 h1 {
     font-family: 'Shrikhand', cursive !important;
@@ -7,24 +8,24 @@ h1 {
 }
 
 h2 {
-    font-family: 'Montserrat', sans-serif !important;
+    font-family: 'Frank Ruhl Libre', serif !important;
     font-weight: 500;
 }
 
 h3 {
-    font-family: 'Montserrat', sans-serif !important;
+    font-family: 'Frank Ruhl Libre', serif !important;
     font-weight: 500;
 }
 
 h4 {
-    font-family: 'Montserrat', sans-serif !important;
+    font-family: 'Frank Ruhl Libre', serif !important;
     font-weight: 500;
     font-size: 1.2rem;
     color: #4e6e58;
 }
 
 h5 {
-    font-family: 'Montserrat', sans-serif !important;
+    font-family: 'Frank Ruhl Libre', serif !important;
     font-size: .9rem;
 }
 
@@ -52,7 +53,7 @@ h5 {
     color: white !important;
 }
 .nav-link {
-    font-family: 'Montserrat', sans-serif !important;
+    font-family: 'Frank Ruhl Libre', serif !important;
     font-weight: 500;
     color: #4e6e58 !important;
 }
@@ -72,7 +73,7 @@ h5 {
 }
 
 p {
-    font-family: 'Montserrat', sans-serif !important;
+    font-family: 'Frank Ruhl Libre', serif !important;
     line-height: 24px;
 }
 
@@ -93,13 +94,13 @@ hr {
 }
 
 label {
-    font-family: 'Montserrat', sans-serif !important;
+    font-family: 'Frank Ruhl Libre', serif !important;
     color: #779fa8 !important;
     font-weight: 500;
 }
 
 input {
-    font-family: 'Montserrat', sans-serif !important;
+    font-family: 'Frank Ruhl Libre', serif !important;
 }
 
 .form-dark .font-small {
@@ -156,7 +157,7 @@ input {
     list-style: none !important;
     color: #4e6e58 !important;
     font-size: 1.2rem !important;
-    font-family: 'Montserrat', sans-serif !important;
+    font-family: 'Frank Ruhl Libre', serif !important;
     text-align: center;
     padding-left: 0px !important;
 }

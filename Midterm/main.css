@@ -1,5 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,800|Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;400;500;900&display=swap');
 
+
+body {
+    background-color: #dce2aa41 !important;
+}
 h1 {
     font-family: 'Shrikhand', cursive !important;
     color: #9ec685 !important;
@@ -7,25 +12,29 @@ h1 {
 }
 
 h2 {
-    font-family: 'Montserrat', sans-serif !important;
+    font-family: 'Frank Ruhl Libre', serif !important;
     font-weight: 500;
 }
 
 h3 {
-    font-family: 'Montserrat', sans-serif !important;
+    font-family: 'Frank Ruhl Libre', serif !important;
     font-weight: 500;
 }
 
 h4 {
-    font-family: 'Montserrat', sans-serif !important;
+    font-family: 'Frank Ruhl Libre', serif !important;
     font-weight: 500;
     font-size: 1.2rem;
     color: #4e6e58;
 }
 
 h5 {
-    font-family: 'Montserrat', sans-serif !important;
+    font-family: 'Frank Ruhl Libre', serif !important;
     font-size: .9rem;
+}
+
+li {
+    font-family: 'Frank Ruhl Libre', serif !important;
 }
 
 .modal-title {
@@ -43,6 +52,10 @@ h5 {
     font-weight: 500;
 }
 
+.featurette-divider {
+    margin-bottom: 2rem !important;
+}
+
 .carousel-item img {
     width: 100% !important;
 }
@@ -51,10 +64,27 @@ h5 {
     text-shadow: 1px 1px 2px black !important;
     color: white !important;
 }
+
+.bg-light {
+    background-color: #B4D2BA7A !important;
+}
+.border-bottom {
+    border-bottom: 5px solid #4B543B !important;
+}
+
+.color1 {
+    border-bottom: 10px solid #B57F50 !important;
+}
+
+.color2 {
+    border-bottom: 15px solid #DCE2AA !important;
+}
+
 .nav-link {
-    font-family: 'Montserrat', sans-serif !important;
+    font-family: 'Frank Ruhl Libre', serif !important;
     font-weight: 500;
     color: #4e6e58 !important;
+    padding-right: 1.5rem !important;
 }
 
 .active {
@@ -69,37 +99,68 @@ h5 {
 .navbar-brand {
     font-family: 'Shrikhand', cursive !important;
     color: #9ec685 !important;
+    font-size: 2rem !important;
 }
 
 p {
-    font-family: 'Montserrat', sans-serif !important;
+    font-family: 'Frank Ruhl Libre', serif !important;
     line-height: 24px;
+}
+
+.alertp {
+    line-height: 20px;
+    margin: 0px;
+    text-align: center;
 }
 
 .blog p::first-letter {
     margin-left: 25px;
     margin-right: 3px;
     font-weight: 800;
-    color: #9dc3c2 !important;
+    color: #4B543B !important;
     font-size: 1.7rem !important;
 }
 
+.mark {
+    background-color: #fff0 !important;
+}
+.mark::first-letter {
+    margin-left: 15px;
+}
 .marketing {
     text-align: center;
 }
 
+
+.card-title 
+{
+    margin-top: .6rem !important;
+}
+
+.shophr {
+    border-top: 1px solid #B57F50 !important;
+}
 hr {
-    border-top: 2px solid #779fa8 !important;
+    border-top: 3px solid #4B543B !important;
+    margin-bottom: 0px !important;
+}
+
+.hr1 {
+    border-bottom: 3px solid #B57F50 !important;
+}
+
+.hr2 {
+    border-bottom: 3px solid #DCE2AA !important;
 }
 
 label {
-    font-family: 'Montserrat', sans-serif !important;
+    font-family: 'Frank Ruhl Libre', serif !important;
     color: #779fa8 !important;
     font-weight: 500;
 }
 
 input {
-    font-family: 'Montserrat', sans-serif !important;
+    font-family: 'Frank Ruhl Libre', serif !important;
 }
 
 .form-dark .font-small {
@@ -126,12 +187,18 @@ input {
 }
 
 .btn-success {
-    background-color: #779fa8 !important;
-    border-color: #779fa8 !important;
+    background-color: #DCE2AA !important;
+    border-color: rgb(191, 196, 145) !important;
+    color: #4B543B;
+}
+
+button {
+    font-family: 'Frank Ruhl Libre', serif !important;
 }
 
 .font-weight-bold {
-    color: #9dc3c2;
+    color: #9ec685;
+    font-family: 'Frank Ruhl Libre', serif !important;
 }
 
 .modal-body h4 {
@@ -139,7 +206,7 @@ input {
 }
 
 .footer {
-    background-color: #9ec685;
+    background-color: #B4D2BA7A ;
 }
 
 .footer h1 {
@@ -148,15 +215,25 @@ input {
     margin: 0px;
 }
 
-.footer-content {
-    background-color: white;
+.fhr1{
+    height: 15px;
+    background-color: #4B543B;
+    border-bottom: 10px solid #B57F50;
+}
+
+.fhr2{
+    border-bottom: 15px solid #DCE2AA;
+}
+
+footer {
+    background-color: #B4D2BA7A !important;
 }
 
 .footer ul {
     list-style: none !important;
     color: #4e6e58 !important;
     font-size: 1.2rem !important;
-    font-family: 'Montserrat', sans-serif !important;
+    font-family: 'Frank Ruhl Libre', serif !important;
     text-align: center;
     padding-left: 0px !important;
 }

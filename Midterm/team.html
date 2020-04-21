@@ -16,7 +16,7 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
             <a class="navbar-brand" href="#">Green Kahuna</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
                 aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,24 +26,22 @@
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                 <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                     <li class="nav-item ">
-                        <a class="nav-link" href="index.html">Home </span></a>
+                        <a class="nav-link" href="index.html">Home </a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">About Us</a>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="about.html">About Us<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link " href="shop.html">Shop</a>
                     </li>
-                    <li class="nav-item active">
-                        <a class="nav-link " href="team.html">Our Team <span class="sr-only">(current)</span></a>
+                    <li class="nav-item">
+                        <a class="nav-link " href="team.html">Our Team</a>
                     </li>
                 </ul>
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form>
             </div>
         </nav>
+        <div class="color1"></div>
+        <div class="color2"></div>
     </header>
     <main>
         <!--JUMBOTRON-->
@@ -58,22 +56,26 @@
         </div>
 
 
-        <div class="container marketing">
+        <div class="container">
             <!-- Three columns of text below the carousel -->
             <div class="row">
                 <div class="col-lg-4">
                     <img src="https://images.unsplash.com/photo-1556581830-c1a0d80b6cfb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80"
                         alt="Smiley face" style="width: 100%;">
-                    <h2 class="my-3"> Leyla Caulfield </h2>
-                    <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh
+                    <h2 class="my-3 marketing"> Leyla "Marlin" Field </h2>
+                    <hr class="hr1">
+                    <div class="hr2"></div>
+                    <p class="mark">Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh
                         ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
                         Praesent commodo cursus magna.</p>
                 </div><!-- /.col-lg-4 -->
                 <div class="col-lg-4">
                     <img src="https://images.unsplash.com/photo-1509042983100-45d8ac690864?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80"
                         style="width: 100%;">
-                    <h2 class="my-3"> Rachyl Riley </h2>
-                    <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec
+                    <h2 class="my-3 marketing"> Rachyl "Boozer" Riley </h2>
+                    <hr class="hr1">
+                    <div class="hr2"></div>
+                    <p class="mark">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec
                         elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus
                         commodo, tortor mauris condimentum nibh.</p>
                 </div><!-- /.col-lg-4 -->
@@ -81,8 +83,10 @@
                     <img src="https://images.unsplash.com/photo-1541614636992-adddbcf47eaa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80"
                         style="width: 100%;">
                     <!-- https://images.unsplash.com/photo-1522556189639-b150ed9c4330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80 -->
-                    <h2 class="my-3"> Edie Bul </h2>
-                    <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum
+                    <h2 class="my-3 marketing"> Edie "Bumby" Bul </h2>
+                    <hr class="hr1">
+                    <div class="hr2"></div>
+                    <p class="mark">Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum
                         id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris
                         condimentum nibh, ut fermentum massa justo sit amet risus.</p>
                 </div><!-- /.col-lg-4 -->
@@ -91,37 +95,38 @@
     </main>
     <div class="container my-5"></div>
 
-    <footer class="footer">
-        <div class="container-fluid">
-            <div class="row footer-divider">
-                <div class="col col-md-6 my-2 mx-auto">
-                    <h1 style="color: white;">Green Kahuna</h1>
-                </div>
-            </div>
-            <div class="row pt-3 footer-content">
-                <div class="col-0 col-md-2"></div>
-                <div class="col-12 col-md-4 my-auto mx-auto">
-                    <ul>
-                        <li>Facebook</li>
-                        <li>Twitter</li>
-                        <li>Instagram</li>
-                        <li>Youtube</li>
-
-                    </ul>
-                </div>
-                <div class="col-12 col-md-4">
-                    <ul>
-                        <li>FAQ</li>
-                        <li>Shipping & Returns</li>
-                        <li>Contact Us</li>
-                        <li>Terms & Conditions</li>
-                    </ul>
-                </div>
-                <div class="col-0 col-md-2"></div>
-            </div>
-        </div>
-        </div>
-    </footer>
+   <!-- Footer -->
+   <div class="fhr1"></div>
+   <div class="fhr2"></div>  
+   <footer class="font-small pt-4">
+       <div class="container-fluid text-center text-md-left">
+           <div class="container">
+               <div class="row">
+                   <div class="col-md-6 mt-md-0 mt-3">
+                       <h1>Green Kahuna</h1>
+                       <p>Giving your the boards you deserve.</p>
+                   </div>
+                   <div class="col-md-3 mb-md-0 mb-3">
+                       <h4>Social Media</h4>
+                       <ul class="list-unstyled">
+                           <li>Youtube</li>
+                           <li>Instagram</li>
+                           <li>Facebook</li>
+                           <li>Twitter</li>
+                       </ul>
+                   </div>
+                   <div class="col-md-3 mb-md-0 mb-3">
+                       <h4>Helpful Links</h4>
+                       <ul class="list-unstyled">
+                           <li>Shipping & Returns</li>
+                           <li>FAQ</li>
+                           <li>Contact Us</li>
+                       </ul>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

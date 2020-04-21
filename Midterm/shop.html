@@ -16,7 +16,7 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
             <a class="navbar-brand" href="#">Green Kahuna</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
                 aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,25 +25,23 @@
 
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                 <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                    <li class="nav-item">
+                    <li class="nav-item ">
                         <a class="nav-link" href="index.html">Home </a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">About Us</a>
-                    </li>
                     <li class="nav-item active">
-                        <a class="nav-link " href="shop.html">Shop<span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="about.html">About Us<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="shop.html">Shop</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link " href="team.html">Our Team</a>
                     </li>
                 </ul>
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form>
             </div>
         </nav>
+        <div class="color1"></div>
+        <div class="color2"></div>
     </header>
     <main>
         <!--CAROUSEL-->
@@ -88,14 +86,18 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
+        <div class="alert alert-danger mx-auto" role="alert">
+            <p class="alertp">Due to COVID-19 all orders will have an additional 1-2 week shipping period.</p>
+        </div>
+
         <div class="container">
             <div class="row my-3">
                 <div class="col">
                     <h1>Boards</h1>
-                    <hr>
+                    <hr class="hr1">
+                    <div class="hr2"></div>
                 </div>
             </div>
-
         </div>
         <!--CARDS-->
         <div class="container">
@@ -104,6 +106,7 @@
                     <div class="card h-100">
                         <img src="shortboard.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
+                            <div class="shophr"></div>
                             <h4 class="card-title">Short Board</h4>
                             <h5>$770</h5>
 
@@ -114,6 +117,7 @@
                     <div class="card h-100">
                         <img src="longboard.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
+                            <div class="shophr"></div>
                             <h4 class="card-title">Long Board</h4>
                             <h5>$500</h5>
 
@@ -124,9 +128,9 @@
                     <div class="card h-100">
                         <img src="fishboard.png" class="card-img-top" alt="...">
                         <div class="card-body">
+                            <div class="shophr"></div>
                             <h4 class="card-title">Fish Board</h4>
                             <h5>$610</h5>
-
                         </div>
                     </div>
                 </div>
@@ -134,19 +138,20 @@
                     <div class="card h-100">
                         <img src="malibuboard.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
+                            <div class="shophr"></div>
                             <h4 class="card-title">Malibu Board</h4>
                             <h5>$550</h5>
-
                         </div>
                     </div>
                 </div>
                 <div class="col mb-4">
                     <div class="card h-100">
+
                         <img src="paddleboard.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
+                            <div class="shophr"></div>
                             <h4 class="card-title">Paddle Board</h4>
                             <h5>$990</h5>
-
                         </div>
                     </div>
                 </div>
@@ -154,10 +159,9 @@
                     <div class="card h-100">
                         <img src="wakeboard.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
+                            <div class="shophr"></div>
                             <h4 class="card-title">Wakesurf Board</h4>
                             <h5>$230</h5>
-
-
                         </div>
                     </div>
                 </div>
@@ -165,6 +169,7 @@
                     <div class="card h-100">
                         <img src="eggsurfboard.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
+                            <div class="shophr"></div>
                             <h4 class="card-title">Egg Board</h4>
                             <h5>$620</h5>
                         </div>
@@ -174,6 +179,7 @@
                     <div class="card h-100">
                         <img src="gunbpard.png" class="card-img-top" alt="...">
                         <div class="card-body">
+                            <div class="shophr"></div>
                             <h4 class="card-title">Gun Board</h4>
                             <h5>$200</h5>
                         </div>
@@ -184,35 +190,36 @@
     </main>
     <div class="container my-5"></div>
 
-    <footer class="footer">
-        <div class="container-fluid">
-            <div class="row footer-divider">
-                <div class="col col-md-6 my-2 mx-auto">
-                    <h1 style="color: white;">Green Kahuna</h1>
+    <!-- Footer -->
+    <div class="fhr1"></div>
+    <div class="fhr2"></div>
+    <footer class="font-small pt-4">
+        <div class="container-fluid text-center text-md-left">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 mt-md-0 mt-3">
+                        <h1>Green Kahuna</h1>
+                        <p>Giving your the boards you deserve.</p>
+                    </div>
+                    <div class="col-md-3 mb-md-0 mb-3">
+                        <h4>Social Media</h4>
+                        <ul class="list-unstyled">
+                            <li>Youtube</li>
+                            <li>Instagram</li>
+                            <li>Facebook</li>
+                            <li>Twitter</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 mb-md-0 mb-3">
+                        <h4>Helpful Links</h4>
+                        <ul class="list-unstyled">
+                            <li>Shipping & Returns</li>
+                            <li>FAQ</li>
+                            <li>Contact Us</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-            <div class="row pt-3 footer-content">
-                <div class="col-0 col-md-2"></div>
-                <div class="col-12 col-md-4 my-auto mx-auto">
-                    <ul>
-                        <li>Facebook</li>
-                        <li>Twitter</li>
-                        <li>Instagram</li>
-                        <li>Youtube</li>
-
-                    </ul>
-                </div>
-                <div class="col-12 col-md-4">
-                    <ul>
-                        <li>FAQ</li>
-                        <li>Shipping & Returns</li>
-                        <li>Contact Us</li>
-                        <li>Terms & Conditions</li>
-                    </ul>
-                </div>
-                <div class="col-0 col-md-2"></div>
-            </div>
-        </div>
         </div>
     </footer>
     <!-- Optional JavaScript -->
