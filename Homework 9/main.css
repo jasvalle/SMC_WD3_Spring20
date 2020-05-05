@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Emblema+One|Roboto+Slab&display=swap');
+
+.navbar {
+    background-color: blueviolet;
+    background-image: linear-gradient(35deg, blueviolet, aqua)
+}
+
+.nav-link {
+    font-family: 'Emblema One', cursive;
+    color: rgba(255, 255, 255, 0.678) !important;
+    background: transparent;
+    width: 0%;
+    transition: width 2s;
+}
+
+.nav-link:hover {
+    background: thistle;
+    width: 100%;
+}
+
+.active .nav-link {
+    color: white !important;
+}
+
+.navbar-brand {
+    font-family: 'Emblema One', cursive;
+    color: white !important;
+}
+
+.navbar-text {
+    font-family: 'Roboto Slab', serif !important;
+    color: white !important;
+}
+
+body {
+    background-color: #ffe9f9;
+}
+
+img {
+    width: 100%;
+}
+
+.falling-star:hover {
+    transform: rotate(360deg);
+    transition-duration: 2s;
+    transition-timing-function: ease;
+}
+
+
+.shooting-star:active {
+    transform: translate(500px, -500px);
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    z-index: 2;
+}
