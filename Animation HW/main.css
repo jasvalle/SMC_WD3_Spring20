@@ -1,9 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Satisfy&display=swap');
 
-
-.bg-light {
-    background-color: #678695 !important;
+.navbar-brand {
+    color: #3A4B54 !important;
 }
+
+a {
+    color: #3A4B54 !important;
+}
+
+.active {
+    color: cornsilk !important;
+}
+.bg-light {
+    background-image: linear-gradient(115deg, #9BC9E0 25%, #6F90A1, #678695);
+    background-color: #678695 !important;
+    animation-name: colorchange;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+    animation-timing-function: ease;
+    background-size: 200% 200%;
+}
+
+@keyframes colorchange {
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
 h1 {
     font-family: 'Satisfy', cursive !important;
 }
@@ -18,15 +40,24 @@ body {
 .text {
     color: white;
     animation-name: popup;
-    animation-duration: 2s;
+    animation-duration: 3s;
     text-align: center;
     transform: rotate(-5deg);
     font-size: 70px;
+    animation-iteration-count: 1;
+    -moz-animation-timing-function: ease;
+}
+
+.dropdown-menu {
+    border-radius: 0px !important;
+    background-color: #678695 !important;
+    background-image: linear-gradient(115deg, #9BC9E0 10%, #6F90A1, #678695);
+
 }
 
 @keyframes popup {
     0% {transform: scale(0.1); opacity: 0; color: cornflowerblue;}
-    60% {transform: scale(1.5); transform: rotate(5deg); opacity: 1; color: rgb(12, 51, 51);}
+    75% {transform: scale(1.5); transform: rotate(5deg); opacity: 1; color: #3A4B54;}
     100% {transform: scale(1); transform: rotate(-5deg); opacity: 1; color: white;}
 }
 
@@ -34,11 +65,11 @@ body {
 
 
 .bird {
-    width: 40%;
+    width: 30%;
     position: relative;
     animation-name: flying;
     animation-duration: 6s;
-    animation-timing-function: ease-in-out;
+    animation-timing-function: linear;
     animation-iteration-count: infinite;
   }
 
@@ -46,11 +77,15 @@ img {
     display: block;
     margin: auto;
 }
-  
+
   @keyframes flying {
-    0%   {left:0px; top:0px; transform: rotate(0deg);}
-    25%  {left:200px; top:50px; transform: rotate(5deg);}
-    50%  {left:0px; top:100px; transform: rotate(-5deg);}
-    75%  {left:-200px; top:50px; transform: rotate(-25deg);}
-    100% {left:0px; top:0px; transform: rotate(0deg);}
-  }
+    0%    {left:0px; top:0px; transform: rotate(0deg);}
+    12%   {left:150px; top:50px; transform: rotate(0deg);}
+    24%   {left:200px; top:-40px; transform: rotate(0deg);}
+    36%   {left:100px; top:-60px; transform: rotate(0deg);}
+    51%   {left:0px; top:0px; transform: scaleX(-1);}
+    66%   {left:-150px; top:50px; transform: scaleX(-1);}
+    78%   {left:-250px; top:-40px; transform: scaleX(-1);}
+    90%   {left:-150px; top:-60px;}
+    100%  {left:0px; top:0px; transform: rotate(0deg);}
+}
