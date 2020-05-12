@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Satisfy&display=swap');
+
+
+.bg-light {
+    background-color: #678695 !important;
+}
+h1 {
+    font-family: 'Satisfy', cursive !important;
+}
+body {
+    background-image: url(beach.jpg);
+    background-size: cover;
+    background-color: cornflowerblue;
+    font-family: 'Roboto Condensed', sans-serif !important;
+}
+
+
+.text {
+    color: white;
+    animation-name: popup;
+    animation-duration: 2s;
+    text-align: center;
+    transform: rotate(-5deg);
+    font-size: 70px;
+}
+
+@keyframes popup {
+    0% {transform: scale(0.1); opacity: 0; color: cornflowerblue;}
+    60% {transform: scale(1.5); transform: rotate(5deg); opacity: 1; color: rgb(12, 51, 51);}
+    100% {transform: scale(1); transform: rotate(-5deg); opacity: 1; color: white;}
+}
+
+
+
+
+.bird {
+    width: 40%;
+    position: relative;
+    animation-name: flying;
+    animation-duration: 6s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+  }
+
+img {
+    display: block;
+    margin: auto;
+}
+  
+  @keyframes flying {
+    0%   {left:0px; top:0px; transform: rotate(0deg);}
+    25%  {left:200px; top:50px; transform: rotate(5deg);}
+    50%  {left:0px; top:100px; transform: rotate(-5deg);}
+    75%  {left:-200px; top:50px; transform: rotate(-25deg);}
+    100% {left:0px; top:0px; transform: rotate(0deg);}
+  }
