@@ -1,3 +1,31 @@
 #myCanvas {
     border: 3px dashed coral;
+    background-color: rgb(247, 221, 212);
+}
+
+body {
+    background-color: rgb(253, 188, 165);
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: rgb(209, 125, 125);
+    border-color: rgb(150, 82, 82);
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: rgb(182, 100, 100);
+    border-color: rgb(126, 64, 64);
+}
+
+
+.btn-primary:active {
+    color: #fff;
+    background-color: rgb(141, 62, 62);
+    border-color: rgb(126, 64, 64);
+}
+
+h2 {
+    color: #fff;
 }
