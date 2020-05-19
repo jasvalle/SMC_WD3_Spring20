@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lily+Script+One&display=swap');
+
 #myCanvas {
     border: 3px dashed coral;
     background-color: rgb(247, 221, 212);
@@ -5,6 +7,10 @@
 
 body {
     background-color: rgb(253, 188, 165);
+}
+
+.btn {
+    font-family: 'Lily Script One', cursive !important;
 }
 
 .btn-primary {
@@ -26,6 +32,12 @@ body {
     border-color: rgb(126, 64, 64);
 }
 
+h1 {
+    color: #fff;
+    font-family: 'Lily Script One', cursive;
+}
+
 h2 {
     color: #fff;
+    font-family: 'Lily Script One', cursive;
 }

@@ -16,74 +16,37 @@
 <body>
     <div class="container text-center">
         <div class="row my-4">
-            <div class="col">
-                <canvas id="myCanvas" width="800" height="500"></canvas>
+            <div class="col-6">
+                <h1>Bubble Gum</h1>
+            </div>
+            <div class="col-6">
+                <h2 id="counter">Counter: </h2>
+
             </div>
         </div>
         <div class="row my-4">
-            <div class="col-6">
-                <h2 id="counter">Counter: 0</h2>
+            <div class="col-12">
+                <canvas id="myCanvas" width="800" height="500"></canvas>
             </div>
-            <div class="col-6">
-                <button type="button" id="colorBtn" class="btn btn-primary btn-lg">Click Me!</button> </div>
-
+        </div>
+        <div class="col-12 mx-auto">
+            <button type="button" id="colorBtn" class="btn btn-primary btn-lg">Click Me!</button>
         </div>
     </div>
 </body>
 <script>
-    var canvas = document.getElementById("myCanvas");
-    var context = canvas.getContext("2d");
-
-    var ballColor = 'rgb(182, 70, 70)';
-    var ballPosX = canvas.width / 2;
-    var ballPosY = canvas.height / 2;
-    var ballRadius = 50;
-
-    var ballSpeedX = 3;
-    var ballSpeedY = 2;
-
-    var animate = function () {
-        context.clearRect(0, 0, canvas.width, canvas.height);
-
-
-        context.fillStyle = ballColor;
-        context.beginPath();
-        context.arc(ballPosX, ballPosY, ballRadius, 0, 2 * Math.PI);
-        context.fill();
-
-        if ((ballPosX + ballRadius >= canvas.width) || (ballPosX - ballRadius) <= 0) {
-            ballSpeedX = ballSpeedX * -1;
-        }
-
-        if ((ballPosY + ballRadius >= canvas.height) || (ballPosY - ballRadius <= 0)) {
-            ballSpeedY = ballSpeedY * -1;
-        }
-
-        ballPosX = ballPosX + ballSpeedX;
-        ballPosY = ballPosY + ballSpeedY;
-
-
-        window.requestAnimationFrame(animate);
-    }
-
-    var colorBtn = document.getElementById('colorBtn');
-
-    animate();
-
-    canvas.addEventListener("click", function () {
-        var button = document.getElementById("counter"),
-            count = 0;
-        canvas.onclick = function () {
-            var distX = Math.abs(ballPosX - event.offsetX);
-            var distY = Math.abs(ballPosY - event.offsetY);
-
-            if (distX < ballRadius && distY < ballRadius) {
-                count += 1;
-                button.innerHTML = "Counter: " + count;
-            }
-        };
-    })
-
+    src = "https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity = "sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin = "anonymous"
+</script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="script.js"></script>
 </script>
 
 </html>
