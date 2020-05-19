@@ -29,11 +29,13 @@ var animate = function () {
     ballPosX = ballPosX + ballSpeedX;
     ballPosY = ballPosY + ballSpeedY;
 
-
     window.requestAnimationFrame(animate);
 }
-
 animate();
+
+colorBtn.addEventListener("click", function (event) {
+    ballColor = 'pink';
+});
 
 var button = document.getElementById("counter"),
     count = 0;
@@ -41,11 +43,8 @@ canvas.onclick = function () {
     var distX = Math.abs(ballPosX - event.offsetX);
     var distY = Math.abs(ballPosY - event.offsetY);
     if (distX < ballRadius && distY < ballRadius) {
-        count += 1;
+        count ++;
         button.innerHTML = "Counter: " + count;
     }
 };
 
-colorBtn.addEventListener("click", function (event) {
-    ballColor = 'pink';
-});

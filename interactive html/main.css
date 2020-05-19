@@ -20,17 +20,23 @@ body {
 }
 
 .btn-primary:hover {
-    color: #fff;
     background-color: rgb(182, 100, 100);
     border-color: rgb(126, 64, 64);
 }
 
 
 .btn-primary:active {
-    color: #fff;
-    background-color: rgb(141, 62, 62);
-    border-color: rgb(126, 64, 64);
+    background-color: rgb(141, 62, 62) !important;
+    border-color: rgb(126, 64, 64) !important;
 }
+
+.btn-primary:focus {
+    background-color: rgb(141, 62, 62) !important;
+    border-color: rgb(126, 64, 64) !important;   
+    box-shadow: 0 0 0 .2rem rgba(211, 104, 104, 0.5) !important;
+}
+
+
 
 h1 {
     color: #fff;
