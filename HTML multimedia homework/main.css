@@ -2,14 +2,14 @@
 
 video {
     background-color: black;
-  }
+}
 
 .video-bgrnd {
     background-color: black;
 }
 
 .bg-light {
-    background-color: #d7b6dd !important;
+    background-color: #cbbdce !important;
 }
 
 p::first-letter {
@@ -36,8 +36,8 @@ h2 {
 }
 
 body {
-    background: rgb(153,150,196);
-    background: linear-gradient(0deg, rgba(153,150,196,1) 0%, rgba(243,199,251,1) 100%); 
+    background: rgb(153, 150, 196);
+    background: linear-gradient(0deg, rgba(153, 150, 196, 1) 0%, rgba(243, 199, 251, 1) 100%);
 }
 
 .content-main {
@@ -48,4 +48,10 @@ body {
 
 img {
     width: 100%;
+}
+
+@media (min-width: 450px) {
+    .google-maps {
+        width: 100%;
+    }
 }
