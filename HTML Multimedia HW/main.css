@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&family=Roboto:ital,wght@0,400;0,500;1,500&display=swap');
+
+video {
+    background-color: black;
+  }
+
+.video-bgrnd {
+    background-color: black;
+}
+
+.bg-light {
+    background-color: #d7b6dd !important;
+}
+
+p::first-letter {
+    margin-left: 20px;
+}
+
+p {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+h2 {
+    font-family: 'Questrial', sans-serif !important;
+    font-style: italic;
+    font-weight: 500;
+    color: rgb(64, 49, 78);
+}
+
+.navbar-brand {
+    font-family: 'Questrial', sans-serif !important;
+    font-weight: 500;
+    color: rgb(64, 49, 78) !important;
+}
+
+body {
+    background: rgb(153,150,196);
+    background: linear-gradient(0deg, rgba(153,150,196,1) 0%, rgba(243,199,251,1) 100%); 
+}
+
+.content-main {
+    background-color: rgba(255, 255, 255, 0.466) !important;
+    border-radius: 10px;
+    border: 1px solid white;
+}
