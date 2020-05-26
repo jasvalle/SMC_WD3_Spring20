@@ -47,3 +47,7 @@ h2 {
     color: #fff;
     font-family: 'Lily Script One', cursive;
 }
+
+img {
+    max-width: 100% !important;
+}
