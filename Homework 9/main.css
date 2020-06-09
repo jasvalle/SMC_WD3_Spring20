@@ -54,3 +54,7 @@ img {
     transition-timing-function: ease-in-out;
     z-index: 2;
 }
+
+.carousel-inner > .carousel-item {
+    height: 400px !important;
+}
