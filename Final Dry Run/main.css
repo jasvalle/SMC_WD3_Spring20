@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,400&family=Yeseva+One&display=swap');
+.bg-light {
+    background-color: #98c1d9 !important;
+}
+
+.navbar {
+    height: 75px !important;
+}
+
+.navbar-brand {
+    color:  #293241 !important;
+    font-family: 'Yeseva One', cursive;
+    font-size: 40px;
+}
+
+.nav-link {
+    color: #e0fbfc !important;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+img {
+    width: 100%;
+}
+
+.carousel-inner > .carousel-item {
+    height: 800px !important;
+ }
+
+ body {
+     height: 3000px;
+ }
+
+ hr {
+     border-top: 1px solid #ee6c4d !important;
+ }
+
+ h1 {
+    color:  #3d5a80 !important;
+    font-family: 'Yeseva One', cursive;
+ }
+
+ p {
+    font-family: 'Open Sans', sans-serif;
+ }
+
+ .box {
+     width: 450px;
+ }
+
+ .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
