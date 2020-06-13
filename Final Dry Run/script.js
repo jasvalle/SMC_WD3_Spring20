@@ -7,4 +7,14 @@ $(document).ready(function() {
        $(".navbar").addClass("bg-dark");
     }
   });
+
+  $(window).scroll(function() {
+    if($(this).scrollTop() < $("#green").height()){
+       $(".dropdown-menu").removeClass("dropdowncolor");
+    }
+    else{
+       $(".dropdown-menu").addClass("dropdowncolor");
+    }
+  });
 });
+
