@@ -97,7 +97,20 @@ p {
     height: 500px;
     background-size: cover;
     background-position: center;
+}
 
+.vinylsjt {
+    background-image: url(images/recordstand.jpg);
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+}
+
+.recordplayerjt {
+    background-image: url(images/thing.png);
+    height: 500px;
+    background-size: cover;
+    background-position: center;
 }
 
 
@@ -257,6 +270,16 @@ hr {
     border-top: 2px solid #98c1da !important;
 }
 
+.blog::first-letter {
+    padding-left: 25px;
+    font-size: 25px;
+}
+
+
+.blog {
+    line-height: 28px;
+}
+
 
 @media (min-width: 450px) {
     .headerspace {
@@ -311,12 +334,6 @@ hr {
         background-color: #7eb3a7;
     }
 
-
-
-    .bg-sm-light {
-        background-color: #ffffff00;
-    }
-
     .bg-dark {
         background: rgba(0, 0, 0, 0) !important;
         background: linear-gradient(180deg, rgba(0, 0, 0, 0.5942577714679622) 0%, rgba(255, 255, 255, 0) 100%) !important;
@@ -334,6 +351,7 @@ hr {
         color: #98c1da !important;
     }
 }
+
 
 
 @media (min-width: 660px) {
