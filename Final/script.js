@@ -19,6 +19,8 @@ $(document).ready(function () {
       $('#output').html(function (i, val) {
          return val * 1 + 1
       });
+      $('#output').addClass('countnum');
+      $('#cart').attr('src','images/cart1.png');
    });
 
    AOS.init({

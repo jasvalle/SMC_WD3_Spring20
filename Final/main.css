@@ -286,10 +286,11 @@ hr {
 
 .countnum {
     color: #ee6c4d !important;
+    text-shadow: 1px 1px 2px rgba(255, 184, 184, 0.486);
 }
 
 
-@media (min-width: 450px) {
+@media (min-width: 600px) {
     .bg-sm-light {
         background-color: #f0e5df !important;
     }
@@ -372,7 +373,7 @@ hr {
 
 
 
-@media (min-width: 800px) {
+@media (min-width: 1000px) {
     .counter {
         width: 10%;
     }
