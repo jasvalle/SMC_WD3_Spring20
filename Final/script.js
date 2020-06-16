@@ -20,31 +20,16 @@ $(document).ready(function () {
          return val * 1 + 1
       });
       $('#output').addClass('countnum');
-      $('#cart').attr('src','images/cart1.png');
+      $('#cart').attr('src', 'images/cart1.png');
    });
 
+
    AOS.init({
-      duration: 1200,
-   })
+      // Global settings:
+      disable: 'phone',
+      duration: 1200, // values from 0 to 3000, with step 50ms
+      easing: 'ease', // default easing for AOS animations
+   });
+
    $('.carousel').carousel()
-
-
-   (function () {
-      'use strict';
-      window.addEventListener('load', function () {
-          var forms = document.getElementsByClassName('needs-validation');
-          var validation = Array.prototype.filter.call(forms, function (form) {
-              form.addEventListener('submit', function (event) {
-                  if (form.checkValidity() === false) {
-                      event.preventDefault();
-                      event.stopPropagation();
-                  }
-                  form.classList.add('was-validated');
-              }, false);
-          });
-      }, false);
-  })();
-
-
-  
 });
