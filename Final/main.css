@@ -52,14 +52,28 @@ img {
 h1 {
     font-family: 'boucherie-block', sans-serif;
     font-weight: 700;
-    font-size: 60px;
+    font-size: 4rem;
     color: #ee6c4d !important;
 }
 
 h2 {
     font-family: 'Montserrat', sans-serif;
     color: #293241;
-    font-size: 35px;
+    font-size: 2rem;
+}
+
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #ee6c4d;
+    font-size: 1.5rem;
+}
+
+
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    color: #293241;
+    font-size: 1.2rem;
 }
 
 p {
@@ -309,6 +323,7 @@ hr {
 .blog::first-letter {
     padding-left: 25px;
     font-size: 25px;
+    font-weight: 600;
 }
 
 
