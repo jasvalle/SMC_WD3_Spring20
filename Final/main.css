@@ -215,7 +215,7 @@ hr {
 }
 
 .hide {
-    display: block;
+    display: block !important;
 }
 
 .hide2 {
@@ -355,9 +355,6 @@ hr {
         display: block;
     }
 
-    .hide {
-        display: none;
-    }
 
     .record-spin:hover {
         transform: rotate(360deg);
@@ -401,10 +398,6 @@ hr {
         background-color: #7eb3a7;
     }
 
-    .bg-dark {
-        background: rgba(0, 0, 0, 0) !important;
-    }
-
     .footerul li {
         font-family: 'Montserrat', sans-serif;
         font-weight: 500;
@@ -425,6 +418,11 @@ hr {
 
 
 @media (min-width: 1000px) {
+    
+    .hide {
+        display: none !important;
+    } 
+    
     .hide2 {
         display: block;
     }
