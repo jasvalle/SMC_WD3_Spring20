@@ -94,30 +94,62 @@ p {
 
 .turntablejt {
     background-image: url(images/orangeturntable.jpg);
-    height: 500px;
+    height: 300px;
     background-size: cover;
     background-position: center;
 }
 
 .vinylsjt {
     background-image: url(images/recordstand.jpg);
-    height: 500px;
+    height: 300px;
     background-size: cover;
     background-position: center;
 }
 
 .recordplayerjt {
     background-image: url(images/thing.png);
-    height: 500px;
+    height: 300px;
     background-size: cover;
     background-position: center;
 }
 
+.faqjt {
+    background-image: url(images/faqjt.jpg);
+    height: 550px;
+    background-size: cover;
+    background-position: center;
+}
 
+.jumbotrontext {
+    text-shadow: 2px 2px 2px black;
+}
+
+.faqli {
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 0px;
+    text-align: left !important;
+}
+
+.faqul {
+    padding-left: 15px;
+}
+
+.faqul {
+    list-style: none;
+}
+
+.faqul li::before {
+    content: "\2022";
+    color: #ee6c4d;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
 
 .holmes {
     background-image: url(images/hands.jpg);
-    height: 600px;
+    height: 300px;
     background-size: cover;
     margin-bottom: 0px;
 }
@@ -184,6 +216,10 @@ hr {
 
 .hide {
     display: block;
+}
+
+.hide2 {
+    display: none;
 }
 
 .jumbotron {
@@ -289,6 +325,21 @@ hr {
     text-shadow: 1px 1px 2px rgba(255, 184, 184, 0.486);
 }
 
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
 
 @media (min-width: 600px) {
     .bg-sm-light {
@@ -374,6 +425,30 @@ hr {
 
 
 @media (min-width: 1000px) {
+    .hide2 {
+        display: block;
+    }
+    .turntablejt {
+        height: 500px;
+    }
+
+    .vinylsjt {
+        height: 500px;
+    }
+
+    .recordplayerjt {
+        height: 500px;
+    }
+
+    .holmes {
+        height: 600px !important;
+    }
+
+    .faqjt {
+        height: 900px;
+    }
+
+
     .counter {
         width: 10%;
     }
